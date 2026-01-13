@@ -7,19 +7,18 @@ An app to that pushed quotes from Zenquotes API and lets you store ones that you
 - Save, undo, and reroll quotes
 - Saved quotes are kept in localStorage
 
-
-## Project Structure
-- `src/` — Main source code (React components, styles). This should be the only parts of the code that are being changed
-- `public/` — Static assets (Dont touch unless you know what your doing)
-- `index.html` — Main HTML entrypoint
-- `tailwind.config.js` — Tailwind CSS config file
-
 ## Tech Stack
 
 - **TypeScript (52.5%)**: Provides static typing and improved developer experience compared to it's Javascript counterpart.
 - **CSS (31.3%)**: Styled using modern Tailwind CSS framework.
 - **JavaScript/React (9.4%)**: Dynamically supports certain application features.
 - **HTML (6.8%)**: Structure and basic markup of the application.
+  
+## Project Structure
+- `src/` — Main source code (React components, styles). This should be the only parts of the code that are being changed
+- `public/` — Static assets (Dont touch unless you know what your doing)
+- `index.html` — Main HTML entrypoint
+- `tailwind.config.js` — Tailwind CSS config file
 
 ## Customization
 - Edit `src/App.tsx` for main UI logic
@@ -31,4 +30,5 @@ An app to that pushed quotes from Zenquotes API and lets you store ones that you
 The application uses the [ZenQuotes API](https://zenquotes.io/) to fetch quotes. No need for an api key for the free tier access.
 There is no current way to just add an api key if you have premium access, that will have to be implemented on your own.
 
-Made for the Laurier Computing Society
+Made for the Laurier Computing Society (https://lauriercs.ca)
+
