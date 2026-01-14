@@ -1,5 +1,12 @@
 # Quote Library
 
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![ZenQuotes API](https://img.shields.io/badge/ZenQuotes_API-lightgreen?style=for-the-badge)
+
 An app to that pushed quotes from Zenquotes API and lets you store ones that you find important in local storage.
 
 ## Features
@@ -19,6 +26,35 @@ An app to that pushed quotes from Zenquotes API and lets you store ones that you
 - `public/` — Static assets (Dont touch unless you know what your doing)
 - `index.html` — Main HTML entrypoint
 - `tailwind.config.js` — Tailwind CSS config file
+
+## File Tree
+```
+Quote-Library/
+├── public/
+│   └── index.html
+|                  
+├── src/
+│   ├── components/                   
+│   │   ├── QuoteCard.tsx             
+│   │   ├── Header.tsx                
+│   │   └── Footer.tsx
+│   │
+│   ├── hooks/                        
+│   │   └── useFetchQuotes.ts
+│   │      
+│   ├── styles/                       
+│   │   └── index.css
+│   │             
+│   ├── App.tsx                       
+│   ├── index.tsx                     
+│   └── types                        
+│       └── Quote.ts
+│                   
+├── package.json                      
+├── tailwind.config.js                
+├── tsconfig.json                     
+├── README.md                         
+```
 
 ## Customization
 - Edit `src/App.tsx` for main UI logic
