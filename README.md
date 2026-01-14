@@ -29,31 +29,29 @@ An app to that pushed quotes from Zenquotes API and lets you store ones that you
 
 ## File Tree
 ```
-Quote-Library/
+Jacob-Freij/Quote-Library/
+├── .gitignore
+├── README.md
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.cjs
+├── postcss.config.js
+├── tailwind.config.js
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+├── vite.config.ts
 ├── public/
-│   └── index.html
-|                  
-├── src/
-│   ├── components/                   
-│   │   ├── QuoteCard.tsx             
-│   │   ├── Header.tsx                
-│   │   └── Footer.tsx
-│   │
-│   ├── hooks/                        
-│   │   └── useFetchQuotes.ts
-│   │      
-│   ├── styles/                       
-│   │   └── index.css
-│   │             
-│   ├── App.tsx                       
-│   ├── index.tsx                     
-│   └── types                        
-│       └── Quote.ts
-│                   
-├── package.json                      
-├── tailwind.config.js                
-├── tsconfig.json                     
-├── README.md                         
+│   └── vite.svg
+└── src/
+    ├── App.css
+    ├── App.tsx
+    ├── assets/
+    ├── index.css
+    ├── main.tsx
+    └── vite-env.d.ts                      
 ```
 
 ## Customization
